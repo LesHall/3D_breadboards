@@ -117,7 +117,7 @@ module gripper() {
     }
     
     // chisel for gripper
-    translate([(holes+1)*spacing/2, spacing, 0])
+    translate([(holes+1)*spacing/2, spacing, thickness/2])
     cube([14.25, 2.25, 6.75], center = true);
 }
 
